@@ -1,0 +1,32 @@
+.gj-header-img {
+    height: 90px;
+}
+.gj-header{
+    a{
+        text-decoration: none;
+        color: #EEEEEE;
+    }
+    nav {
+        width: 60%;
+        font-size: 90%;
+    }
+}
+.container-fluid{
+    background-color: $color-header;
+}
+.navbar{
+    --bs-navbar-padding-y: 0;
+}
+.navbar-brand{
+    padding-top: 0;
+    height: 90px;
+}
+.navbar-collapse{
+    flex-direction: row-reverse;
+}
+.navbar-nav{
+    background-color: $color-header;
+}
+.nav-link{
+    color: #f7f0f0;
+}
