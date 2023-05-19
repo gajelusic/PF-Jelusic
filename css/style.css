@@ -6,11 +6,13 @@
 .gj-main-index {
   background-color: #f7f0f0;
   position: relative; }
-  .gj-main-index h3 {
+  .gj-main-index h1 {
     font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.08);
+    border-radius: 20px;
     color: white;
     position: absolute;
-    top: 150px;
+    top: 20vh;
     left: 50px; }
   .gj-main-index img {
     width: 100vw; }
@@ -37,7 +39,7 @@
     margin-top: 5px; }
 
 .aparicion {
-  animation: fadeIn 5s; }
+  animation: fadeIn 2.5s; }
 
 @keyframes fadeIn {
   0% {
@@ -144,6 +146,9 @@ h4 {
       background-image: linear-gradient(#f7f0f0, gray);
       border: solid 0.5px black; }
 
+.gj-titulo {
+  padding: 20px; }
+
 .gj-grid {
   padding-top: 10px;
   display: grid;
@@ -240,7 +245,14 @@ footer {
 
 @media (max-width: 450px) {
   .gj-header-img {
-    height: 80px; } }
+    height: 80px; }
+  .gj-main-index h1 {
+    font-weight: bold;
+    color: white;
+    font-size: 85%;
+    position: absolute;
+    top: 80px;
+    left: 20px; } }
 
 @media (max-width: 425px) {
   .lista-indice {
@@ -252,7 +264,7 @@ footer {
     font-size: 50%; }
   .gj-main {
     min-width: 320px; }
-  .gj-main-index h3 {
+  .gj-main-index h1 {
     font-weight: bold;
     color: white;
     font-size: 75%;

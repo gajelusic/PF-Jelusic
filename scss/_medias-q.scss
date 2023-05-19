@@ -21,6 +21,16 @@
     .gj-header-img{
         height: 80px;
     }
+    .gj-main-index{
+        h1{
+            font-weight: bold;
+            color: white;
+            font-size: 85%;
+            position: absolute;
+            top: 80px;
+            left: 20px;
+        }
+    }
 }
 
 @media (max-width: 425px){
@@ -36,7 +46,7 @@
         min-width: 320px;
     }
     .gj-main-index{
-        h3{
+        h1{
             font-weight: bold;
             color: white;
             font-size: 75%;

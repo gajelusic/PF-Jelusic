@@ -1,11 +1,13 @@
 .gj-main-index{
     background-color: $color-main;
     position: relative;
-    h3{
+    h1{
         font-weight: bold;
+        background-color: rgba(0,0,0,0.08);
+        border-radius: 20px;
         color: white;
         position: absolute;
-        top: 150px;
+        top: 20vh;
         left: 50px;
     }
     img{
@@ -35,7 +37,7 @@
     }
 }
 .aparicion{
-    animation: fadeIn 5s;
+    animation: fadeIn 2.5s;
 }
 
 // Animaciones
